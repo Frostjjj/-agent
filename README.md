@@ -1,4 +1,4 @@
-# 交互式对话记忆agent Memo Memory-agent
+# 交互式对话记忆  Memo Memory-agent
 
 双层记忆（**JSON Cards + 历史对话块检索**）+ Agentic RAG。支持跨会话回忆、分散信息整合与冲突指令处理；提供 **Web UI + API** 与 **命令行交互** 两种使用方式。
 
@@ -116,3 +116,4 @@ set ZHIPU_EMBED_MODEL=embedding-3
 也可以通过调小向量索引分块大小来降低单条 input 长度：
 
 - `VEC_CHUNK_SIZE`：每个 chunk 包含的对话轮数（默认 20）
+
